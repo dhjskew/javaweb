@@ -1,0 +1,10 @@
+1.修改项目SessionDemo。
+（1）添加confirm.jsp页面，在该页面中设计出教材图4-4的显示布局。
+（2）删除ConfirmServlet.java文件。在ProcessTwoServlet.java文件中修改response.sendRedirect("Confirm")；语句，使其能够重定向到confirm.jsp页面，并通过Session对象在confirm.jsp页面获取购物车数据并显示。
+2.修改之前做过的Servlet作业2，原要求为
+
+编写两个页面，一个用户登录页面，一个用户登录成功的欢迎页面。
+当用户输入正确的用户名admin和密码111111，使用requestDispacher跳转到欢迎页面里，并在欢迎页面通过request.getParameter方法提取用户名，显示在欢迎页面里。
+如果用户输入用户名或密码错误，则重定向回登录页面。
+
+现要求登录成功后，将用户名保存到session对象中，并在欢迎页面中从session对象中提取数据并显示。

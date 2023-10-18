@@ -1,0 +1,2 @@
+解决ServletDemo2项目中存在的直接通过url访问page2.jsp页面会显示null,null问题。
+要求通过请求转发方式打开page2.jsp页面能显示出用户名和欢迎语，而通过url直接打开page2.jsp则显示空白页。

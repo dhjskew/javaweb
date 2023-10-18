@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+   <!-- <import resource="引入其他bean xml配置文件" />-->
+    <bean id="person" class="org.example.lntu.Person"/>
+    <bean id="accountServiceImp" class="org.example.service.AccountServiceImp"/>
+    <bean id="accountServiceImp2" class="org.example.service.AccountServiceImp2"/>
+
+<!--  <alias name="person" alias="别名" />-->
+
+</beans>
